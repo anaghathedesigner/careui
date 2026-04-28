@@ -29,7 +29,7 @@ const buttonVariants = cva(
         destructive:
           "border border-destructive/70 bg-red-100/75 text-red-700 shadow-md hover:bg-destructive/20 focus-visible:outline-destructive [:active,[data-pressed]]:bg-destructive/25 [:active,[data-pressed]]:inset-shadow-sm [:active,[data-pressed]]:inset-shadow-red-400/40 [:disabled,:active,[data-pressed]]:shadow-none dark:bg-destructive/5 dark:hover:border-destructive/75 dark:text-red-400 dark:hover:bg-destructive/4 dark:[:active,[data-pressed]]:bg-destructive/5 dark:[:active,[data-pressed]]:inset-shadow-neutral-950",
         "destructive-solid":
-          "text-shadow-xs text-shadow-red-950/75 dark:text-shadow-red-900 border border-red-700 bg-destructive text-white shadow-md hover:bg-destructive/80 focus-visible:outline-destructive [:active,[data-pressed]]:bg-destructive/70 [:active,[data-pressed]]:inset-shadow-sm [:active,[data-pressed]]:inset-shadow-destructive/90 [:disabled,:active,[data-pressed]]:shadow-none dark:bg-red-500/90 dark:[:active,[data-pressed]]:inset-shadow-red-950/90 dark:hover:bg-red-500/80 dark:[:active,[data-pressed]]:bg-red-500/70",
+          "text-shadow-xs text-shadow-yellow-950/60 dark:text-shadow-yellow-900 border border-yellow-600 bg-yellow-400 text-yellow-950 shadow-md hover:bg-yellow-300 focus-visible:outline-yellow-500 [:active,[data-pressed]]:bg-yellow-500 [:active,[data-pressed]]:inset-shadow-sm [:active,[data-pressed]]:inset-shadow-yellow-900/40 [:disabled,:active,[data-pressed]]:shadow-none dark:bg-yellow-500/90 dark:[:active,[data-pressed]]:inset-shadow-yellow-950/80 dark:hover:bg-yellow-400/80 dark:[:active,[data-pressed]]:bg-yellow-500/70",
       },
       size: {
         default:
