@@ -1,6 +1,7 @@
 import React from "react";
 
 import { DentalChartTemplate } from "./dental-chart";
+import { EncounterListTemplate } from "./encounter-list";
 import { MedicationRequestTemplate } from "./medication-request";
 
 export interface TemplateDef {
@@ -8,12 +9,24 @@ export interface TemplateDef {
   id: string;
   title: string;
   description: string;
+  showDescription?: boolean;
+  showSource?: boolean;
   /** Path to the source file in the repo. */
   source: string;
   component: React.ComponentType;
 }
 
 export const TEMPLATES: TemplateDef[] = [
+  {
+    id: "template-encounter-list",
+    title: "Encounter List",
+    description:
+      "A standalone Encounter page copy with static fixture data, local search behavior, and no backend or authentication dependencies.",
+    showDescription: false,
+    showSource: false,
+    source: "src/components/templates/encounter-list.tsx",
+    component: EncounterListTemplate,
+  },
   {
     id: "template-dental-chart",
     title: "Dental Chart",

@@ -13,10 +13,14 @@ export function TemplatePage({ id }: { id: string }) {
       <div className="mx-auto max-w-7xl space-y-8 p-4 md:p-8">
         <header className="space-y-2">
           <PageTitle>{template.title}</PageTitle>
-          <Lead>{template.description}</Lead>
-          <p className="text-muted-foreground text-sm">
-            Source: <InlineCode>{template.source}</InlineCode>
-          </p>
+          {template.showDescription !== false && (
+            <Lead>{template.description}</Lead>
+          )}
+          {template.showSource !== false && (
+            <p className="text-muted-foreground text-sm">
+              Source: <InlineCode>{template.source}</InlineCode>
+            </p>
+          )}
         </header>
         <Template />
       </div>
