@@ -1,0 +1,1 @@
+import{i as e,l as t}from"./dist-DtVyZPdI.js";var n=t(e(),1),r=[];function i(e){n.useEffect(e,r)}export{i as t};

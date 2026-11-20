@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link id="site-favicon" rel="icon" href="/careui/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Care·ui</title>
+    <script>
+      (function () {
+        var env = "production";
+        var faviconByEnv = {
+          preview: "/careui/favicon.preview.ico",
+          development: "/careui/favicon.development.ico",
+        };
+        var expectedFavicon =
+          env === "production"
+            ? "/careui/favicon.ico"
+            : faviconByEnv[env] || "/careui/favicon.development.ico";
+        var faviconLink = document.getElementById("site-favicon");
+        if (faviconLink && faviconLink.getAttribute("href") !== expectedFavicon) {
+          faviconLink.setAttribute("href", expectedFavicon);
+        }
+
+        var scale = { small: 0.875, default: 1, large: 1.125, larger: 1.25 };
+        var saved = localStorage.getItem("careui-font-size");
+        var value = scale[saved] || 1;
+        if (value !== 1) {
+          document.documentElement.style.setProperty("--font-size-scale", value);
+        }
+
+        var theme = localStorage.getItem("vite-ui-theme") || "system";
+        var dark =
+          theme === "dark" ||
+          (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.style.setProperty("--loading-bg", dark ? "#0a0a0a" : "#fff");
+      })();
+    </script>
+    <script type="module" crossorigin src="/careui/assets/index-Ck2hFZuL.js"></script>
+    <link rel="modulepreload" crossorigin href="/careui/assets/dist-DtVyZPdI.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/react-dom-B6HHu0c4.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/createLucideIcon-Cs4mMgfM.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/check-CfIGZGct.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/search-Dl4KIBBW.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/x-CgxuUKeI.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useRenderElement-D6nBW7h_.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useIsoLayoutEffect-CQhXJJTB.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useOnMount-BC27XCCS.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useAnimationFrame-SQuyb4nu.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useOpenChangeComplete-DgOfjAjL.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/createBaseUIEventDetails-GCOUSgfO.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useId-Ck4_hnhw.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useTimeout-BVc32Jtg.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/shadowDom-CEmy_8Ko.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/constants-XcSjN_vt.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/composite-BPaDiClV.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/engine-tx9eyfR7.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/addEventListener-VyGXw_SB.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/owner-NnnQFEU-.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/visuallyHidden-CrYY0HH5.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/shim-ts3imae0.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/with-selector-CH8m35mG.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/ReactStore-BZv5n32-.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/element-Cyg4vyBG.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/popupTriggerMap-DQAAXoZz.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useButton-Bp-Ce44L.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useBaseUiId-DsNnTfcW.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useValueAsRef-HB7D3v0i.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useValueChanged-DH2gjIUu.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useOpenInteractionType-DSkaCN6O.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useClick-D2wxzsay.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useTransitionStatus-Zo3diiwg.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/popupStoreUtils-DJJ3xlsF.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/getEmptyRootContext-BD6fee6p.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/store-RjTM7DAc.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/inertValue-DR2zK6ek.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/DialogTrigger-rJ2_15OD.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/composite-CPR7FB33.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/DialogPopup-DO3f2aB8.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/safePolygon-C5wWsMi2.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/DirectionContext-BrPz1pan.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/usePositioner-B8yEdEvF.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useFocus-Dag7o8Hd.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useTypeahead-82OlJzOF.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/DialogRoot-CI9Yd3tg.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/dist-CxWIzVbt.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/button-DTwq4-az.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/clamp-D0kAXd-u.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useControlled-DV2lkYyG.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/use-auto-space-BJrrAlpP.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/input-BRwr7HbH.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/textarea-s05ZOwWG.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/Separator-DjhPVSio.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/LabelableContext-D9AXFyN9.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useLabelableId-15indjya.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useCompositeListItem-Dc6Oe-Ip.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/CompositeList-lHmdWtEb.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useCompositeItem-CgX5QFQt.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/isElementDisabled-KSuuBj8D.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/CompositeItem-C1CcJKzS.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/ToolbarRootContext-IDH4sIQn.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useAnchoredPopupScrollLock-DgX9e8Vy.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/MenuSubmenuTrigger-BgXp3VQ0.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/getPseudoElementBounds-falRCo3S.js">
+    <link rel="modulepreload" crossorigin href="/careui/assets/useTriggerFocusGuards-LYZnTl4F.js">
+    <link rel="stylesheet" crossorigin href="/careui/assets/index-NSYseZKW.css">
+  </head>
+  <body>
+    <div
+      id="app-loading"
+      style="position:fixed;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;background:var(--loading-bg,#fff);z-index:9999;font-family:sans-serif"
+    ></div>
+    <div id="root"></div>
+    <script src="/careui/loading-screen.js"></script>
+  </body>
+</html>

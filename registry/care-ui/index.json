@@ -1,0 +1,842 @@
+[
+  {
+    "name": "unicode-spinner",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/unicode-spinner/unicode-spinner.tsx"
+    ]
+  },
+  {
+    "name": "typography",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/typography/typography.tsx"
+    ]
+  },
+  {
+    "name": "tv-display",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/tv-display/tv-display.tsx"
+    ]
+  },
+  {
+    "name": "tooltip",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/tooltip/tooltip.tsx"
+    ]
+  },
+  {
+    "name": "toggle",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/toggle/toggle.tsx"
+    ]
+  },
+  {
+    "name": "toggle-group",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/toggle-group/toggle-group.tsx"
+    ]
+  },
+  {
+    "name": "toast",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/toast/toast.tsx"
+    ]
+  },
+  {
+    "name": "textarea",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/textarea/textarea.tsx"
+    ]
+  },
+  {
+    "name": "tag-selector",
+    "type": "registry:ui",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/tag-selector/tag-selector.tsx"
+    ]
+  },
+  {
+    "name": "tabs",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/tabs/tabs.tsx"
+    ]
+  },
+  {
+    "name": "table",
+    "type": "registry:ui",
+    "dependencies": [
+      "none"
+    ],
+    "files": [
+      "registry/care-ui/table/table.tsx"
+    ]
+  },
+  {
+    "name": "switch",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/switch/switch.tsx"
+    ]
+  },
+  {
+    "name": "studio-sidebar",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/studio-sidebar/studio-sidebar.tsx"
+    ]
+  },
+  {
+    "name": "spinner",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/spinner/spinner.tsx"
+    ]
+  },
+  {
+    "name": "sonner",
+    "type": "registry:ui",
+    "dependencies": [
+      "sonner",
+      "next-themes"
+    ],
+    "files": [
+      "registry/care-ui/sonner/sonner.tsx"
+    ]
+  },
+  {
+    "name": "slider",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/slider/slider.tsx"
+    ]
+  },
+  {
+    "name": "skeleton",
+    "type": "registry:ui",
+    "dependencies": [
+      "none"
+    ],
+    "files": [
+      "registry/care-ui/skeleton/skeleton.tsx"
+    ]
+  },
+  {
+    "name": "sidebar",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/sidebar/sidebar.tsx"
+    ]
+  },
+  {
+    "name": "sheet",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/sheet/sheet.tsx"
+    ]
+  },
+  {
+    "name": "separator",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/separator/separator.tsx"
+    ]
+  },
+  {
+    "name": "select",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/select/select.tsx"
+    ]
+  },
+  {
+    "name": "scroll-area",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/scroll-area/scroll-area.tsx"
+    ]
+  },
+  {
+    "name": "resizable",
+    "type": "registry:ui",
+    "dependencies": [
+      "react-resizable-panels"
+    ],
+    "files": [
+      "registry/care-ui/resizable/resizable.tsx"
+    ]
+  },
+  {
+    "name": "radio-group",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/radio-group/radio-group.tsx"
+    ]
+  },
+  {
+    "name": "questionnaire",
+    "type": "registry:ui",
+    "dependencies": [
+      "@shadcn/react",
+      "lucide-react",
+      "button"
+    ],
+    "files": [
+      "registry/care-ui/questionnaire/questionnaire.tsx"
+    ]
+  },
+  {
+    "name": "progress",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/progress/progress.tsx"
+    ]
+  },
+  {
+    "name": "popover",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/popover/popover.tsx"
+    ]
+  },
+  {
+    "name": "pixel-spinner",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/pixel-spinner/pixel-spinner.tsx"
+    ]
+  },
+  {
+    "name": "phone-input",
+    "type": "registry:ui",
+    "dependencies": [
+      "react-phone-number-input",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/phone-input/phone-input.tsx"
+    ]
+  },
+  {
+    "name": "pagination",
+    "type": "registry:ui",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/pagination/pagination.tsx"
+    ]
+  },
+  {
+    "name": "navigation-menu",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/navigation-menu/navigation-menu.tsx"
+    ]
+  },
+  {
+    "name": "native-select",
+    "type": "registry:ui",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/native-select/native-select.tsx"
+    ]
+  },
+  {
+    "name": "message",
+    "type": "registry:ui",
+    "dependencies": [
+      "none"
+    ],
+    "files": [
+      "registry/care-ui/message/message.tsx"
+    ]
+  },
+  {
+    "name": "menubar",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/menubar/menubar.tsx"
+    ]
+  },
+  {
+    "name": "matrix-spinner",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/matrix-spinner/matrix-spinner.tsx"
+    ]
+  },
+  {
+    "name": "marker",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/marker/marker.tsx"
+    ]
+  },
+  {
+    "name": "loading-animation",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/loading-animation/loading-animation.tsx"
+    ]
+  },
+  {
+    "name": "loading-animation-svg",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/loading-animation-svg/loading-animation-svg.tsx"
+    ]
+  },
+  {
+    "name": "label",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/label/label.tsx"
+    ]
+  },
+  {
+    "name": "kbd",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/kbd/kbd.tsx"
+    ]
+  },
+  {
+    "name": "item",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/item/item.tsx"
+    ]
+  },
+  {
+    "name": "input",
+    "type": "registry:ui",
+    "dependencies": [
+      "none"
+    ],
+    "files": [
+      "registry/care-ui/input/input.tsx"
+    ]
+  },
+  {
+    "name": "input-otp",
+    "type": "registry:ui",
+    "dependencies": [
+      "input-otp",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/input-otp/input-otp.tsx"
+    ]
+  },
+  {
+    "name": "input-group",
+    "type": "registry:ui",
+    "dependencies": [
+      "none",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/input-group/input-group.tsx"
+    ]
+  },
+  {
+    "name": "indicator",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/indicator/indicator.tsx"
+    ]
+  },
+  {
+    "name": "hover-card",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/hover-card/hover-card.tsx"
+    ]
+  },
+  {
+    "name": "frame",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/frame/frame.tsx"
+    ]
+  },
+  {
+    "name": "filters",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/filters/filters.tsx"
+    ]
+  },
+  {
+    "name": "field",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/field/field.tsx"
+    ]
+  },
+  {
+    "name": "empty",
+    "type": "registry:ui",
+    "dependencies": [
+      "lucide-react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/empty/empty.tsx"
+    ]
+  },
+  {
+    "name": "dropdown-menu",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/dropdown-menu/dropdown-menu.tsx"
+    ]
+  },
+  {
+    "name": "drawer",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react",
+      "button"
+    ],
+    "files": [
+      "registry/care-ui/drawer/drawer.tsx"
+    ]
+  },
+  {
+    "name": "dotted-divider",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/dotted-divider/dotted-divider.tsx"
+    ]
+  },
+  {
+    "name": "dialog",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/dialog/dialog.tsx"
+    ]
+  },
+  {
+    "name": "date-picker",
+    "type": "registry:ui",
+    "dependencies": [
+      "date-fns",
+      "react-day-picker",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/date-picker/date-picker.tsx"
+    ]
+  },
+  {
+    "name": "data-table",
+    "type": "registry:ui",
+    "dependencies": [
+      "@tanstack/react-table",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/data-table/data-table.tsx"
+    ]
+  },
+  {
+    "name": "context-menu",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/context-menu/context-menu.tsx"
+    ]
+  },
+  {
+    "name": "command",
+    "type": "registry:ui",
+    "dependencies": [
+      "cmdk",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/command/command.tsx"
+    ]
+  },
+  {
+    "name": "combobox",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/combobox/combobox.tsx"
+    ]
+  },
+  {
+    "name": "collapsible",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/collapsible/collapsible.tsx"
+    ]
+  },
+  {
+    "name": "checkbox",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/checkbox/checkbox.tsx"
+    ]
+  },
+  {
+    "name": "chart",
+    "type": "registry:ui",
+    "dependencies": [
+      "recharts"
+    ],
+    "files": [
+      "registry/care-ui/chart/chart.tsx"
+    ]
+  },
+  {
+    "name": "carousel",
+    "type": "registry:ui",
+    "dependencies": [
+      "embla-carousel-react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/carousel/carousel.tsx"
+    ]
+  },
+  {
+    "name": "care-filly",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/care-filly/care-filly.tsx"
+    ]
+  },
+  {
+    "name": "care-filly-classic",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/care-filly-classic/care-filly-classic.tsx"
+    ]
+  },
+  {
+    "name": "card",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/card/card.tsx"
+    ]
+  },
+  {
+    "name": "calendar",
+    "type": "registry:ui",
+    "dependencies": [
+      "react-day-picker",
+      "date-fns"
+    ],
+    "files": [
+      "registry/care-ui/calendar/calendar.tsx"
+    ]
+  },
+  {
+    "name": "button",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/button/button.tsx"
+    ]
+  },
+  {
+    "name": "button-group",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/button-group/button-group.tsx"
+    ]
+  },
+  {
+    "name": "bubble",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/bubble/bubble.tsx"
+    ]
+  },
+  {
+    "name": "breadcrumb",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/breadcrumb/breadcrumb.tsx"
+    ]
+  },
+  {
+    "name": "badge",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "lucide-react",
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/badge/badge.tsx"
+    ]
+  },
+  {
+    "name": "avatar",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/avatar/avatar.tsx"
+    ]
+  },
+  {
+    "name": "attachment",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority",
+      "@base-ui/react"
+    ],
+    "files": [
+      "registry/care-ui/attachment/attachment.tsx"
+    ]
+  },
+  {
+    "name": "aspect-ratio",
+    "type": "registry:ui",
+    "dependencies": [
+      "none"
+    ],
+    "files": [
+      "registry/care-ui/aspect-ratio/aspect-ratio.tsx"
+    ]
+  },
+  {
+    "name": "alert",
+    "type": "registry:ui",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "files": [
+      "registry/care-ui/alert/alert.tsx"
+    ]
+  },
+  {
+    "name": "alert-dialog",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "button"
+    ],
+    "files": [
+      "registry/care-ui/alert-dialog/alert-dialog.tsx"
+    ]
+  },
+  {
+    "name": "accordion",
+    "type": "registry:ui",
+    "dependencies": [
+      "@base-ui/react",
+      "lucide-react"
+    ],
+    "files": [
+      "registry/care-ui/accordion/accordion.tsx"
+    ]
+  },
+  {
+    "name": "use-scroll-restoration",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/use-scroll-restoration/use-scroll-restoration.ts"
+    ]
+  },
+  {
+    "name": "use-mobile",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/use-mobile/use-mobile.ts"
+    ]
+  },
+  {
+    "name": "use-media-query",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/use-media-query/use-media-query.ts"
+    ]
+  },
+  {
+    "name": "use-copy-to-clipboard",
+    "type": "registry:ui",
+    "files": [
+      "registry/care-ui/use-copy-to-clipboard/use-copy-to-clipboard.ts"
+    ]
+  },
+  {
+    "name": "use-auto-space",
+    "type": "registry:hook",
+    "files": [
+      "registry/care-ui/use-auto-space/use-auto-space.ts"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+import{c as e}from"./useRenderElement-D6nBW7h_.js";function t(t){return e(19)?t:t?`true`:void 0}export{t};

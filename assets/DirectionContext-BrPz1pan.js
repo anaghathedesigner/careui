@@ -1,0 +1,1 @@
+import{i as e,l as t}from"./dist-DtVyZPdI.js";var n=t(e(),1),r=n.createContext(void 0);function i(){return n.useContext(r)?.direction??`ltr`}export{i as t};

@@ -1,0 +1,1 @@
+import{i as e,l as t}from"./dist-DtVyZPdI.js";import{n,t as r}from"./useIsoLayoutEffect-CQhXJJTB.js";var i=t(e(),1);function a(e,t){let a=i.useRef(e),o=n(t);r(()=>{a.current!==e&&o(a.current)},[e,o]),r(()=>{a.current=e},[e])}export{a as t};

@@ -1,0 +1,1 @@
+import{u as e}from"./useRenderElement-D6nBW7h_.js";import{t}from"./useIsoLayoutEffect-CQhXJJTB.js";function n(n){let i=e(r,n).current;return i.next=n,t(i.effect),i}function r(e){let t={current:e,next:e,effect:()=>{t.current=t.next}};return t}export{n as t};

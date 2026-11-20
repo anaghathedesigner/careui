@@ -1,0 +1,1 @@
+import{n as e,t}from"./popupTriggerMap-DQAAXoZz.js";function n(){return new e({open:!1,transitionStatus:void 0,floatingElement:null,referenceElement:null,triggerElements:new t,floatingId:void 0,syncOnly:!1,nested:!1,onOpenChange:void 0})}export{n as t};

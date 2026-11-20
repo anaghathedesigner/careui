@@ -1,0 +1,1 @@
+import{t as e}from"./useId-Ck4_hnhw.js";function t(t){return e(t,`base-ui`)}export{t};
